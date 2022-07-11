@@ -5,6 +5,7 @@
   * find_function - function that finds formats for _printf
   * @format: format (char, string, int, dec)
   * Return: 0
+* a
   */
 
 int (*find_function(const char *format))(va_list)
