@@ -23,6 +23,7 @@ int print_rot13(va_list R);
   * struct code_format - Struct format
   * @sc: The specifiers
   * @f: The function associated
+* a
   */
 
 typedef struct code_format
