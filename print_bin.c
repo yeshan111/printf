@@ -5,6 +5,7 @@
 * print_bin - convert to binary
 * @b: decimal number
 * Return: number of chars
+* a
 */
 
 int print_bin(va_list b)
