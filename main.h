@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 typedef struct specifier
 {
@@ -14,5 +15,7 @@ typedef struct specifier
 
 int _putchar(char c);
 int _printf(const char *format, ...);
+int print_char(va_list arg);
+int print_str(va_list arg);
 
 #endif
