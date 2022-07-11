@@ -9,9 +9,7 @@
 
 int print_rot13(va_list R)
 {
-	int i, j, count;
-
-	count = 0;
+	int i, j, count = 0;
 	char *r;
 	char input[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz";
 	char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLM nopqrstuvwxyzabcdefghijklm";
