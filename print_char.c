@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+*a
  * print_char - writes the character c to stdout
  * @c: The character to print
  * Return: 1
