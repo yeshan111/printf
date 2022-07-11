@@ -8,7 +8,7 @@
  */
 int identifier(char a, va_list arg)
 {
-	unsigned int c;
+	int c;
 
 
 	spec id[] = {
@@ -19,7 +19,7 @@ int identifier(char a, va_list arg)
 
 	for (c = 0; id[c].sym != NULL; c++)
 	{
-		if (id[c].sym == a)
+		if (id[c].sym[0] == a)
 		{
 			return (id[c].p(arg));
 		}
@@ -85,4 +85,6 @@ int _printf(const char *format, ...);
 	}
 	va_end(arg);
 	return (charprinted);
+}
+
 }
